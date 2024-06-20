@@ -7,7 +7,7 @@
 #include "GraphicSettingsSubsystem.generated.h"
 
 UENUM(BlueprintType)
-enum EGraphicSettingsType : uint8
+enum class EGraphicSettingsType : uint8
 {
 	AntiAliasing		UMETA(DisplayName = "Anti-Aliasing"),
 	Foliage				UMETA(DisplayName = "Foliage"),
@@ -18,7 +18,7 @@ enum EGraphicSettingsType : uint8
 };
 
 UENUM(BlueprintType)
-enum EGraphicSettingsQuality : uint8
+enum class EGraphicSettingsQuality : uint8
 {
 	Low					UMETA(DisplayName = "Low"),
 	Medium				UMETA(DisplayName = "Medium"),
